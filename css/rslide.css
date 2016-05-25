@@ -1,0 +1,5 @@
+.right-slidebar{right: -276px;height: 456px;width: 314px;position: fixed;top: 0;color: #FFFFFF;z-index: 999999;}
+.right-slidebar-main{width: 38px;position: absolute;left: 0;top: 0;z-index: 999999;height: 100%;}
+#nosidederty{height: 456px;background: #333333;}
+#rsidein>div{cursor: pointer;}
+.login{font-size: 12px;position: absolute;top: -6px;z-index: :99;}
