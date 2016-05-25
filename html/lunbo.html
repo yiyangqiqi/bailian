@@ -161,8 +161,9 @@ outline: 0px none;}*/
 					clearInterval();
 					isclick = true;
 					$(this).eq(index).addClass("li-a-circle-red").siblings().removeClass("li-a-circle-red").addClass("li-a-circle-black");;	
-					$(".rollBody ul li").show(500,function() {
-						
+					$(".rollBody ul li").eq(index).show(500,function() {
+						isclick = false;
+						setInterval(change(),8000);
 					});
 				})
 			function myShow(){
@@ -173,16 +174,21 @@ outline: 0px none;}*/
 			setInterval("change()",8000);//每隔8秒调用一次change()函数
 			
 			//循环函数
-			function change(){				
-				index++; //下标加一   加载下一张图片
-				//判断index是否和图片数相等   如果相等index=0；				
-				if(index == $(".rollBody ul li").size()){
-					index = 0;				
+			function change(){	
+				if(!isclick){
+					index++; //下标加一   加载下一张图片
+					//判断index是否和图片数相等   如果相等index=0；				
+					if(index == $(".rollBody ul li").size()){
+						index = 0;				
+					}
+					//根据index使小标签实现相应的效果
+					$(".progress-bar-ol ul li").eq(index).addClass("li-a-circle-red").siblings().removeClass("li-a-circle-red").addClass("li-a-circle-black");	
+					myShow();
+					//点击小标签   控制图片显示
+				}else
+				{
+					clearInterval();
 				}
-				//根据index使小标签实现相应的效果
-				$(".progress-bar-ol ul li").eq(index).addClass("li-a-circle-red").siblings().removeClass("li-a-circle-red").addClass("li-a-circle-black");	
-				myShow();
-				//点击小标签   控制图片显示
 				
 			}
 			
