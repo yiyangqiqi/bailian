@@ -398,7 +398,7 @@ a:link, a:visited {
     color: #666;
     text-decoration: none;
 }
-.ban_qnew a:hover{color: #E6133C;text-decoration: underline;}
+.ban_qnew a:hover{color: #E6133C;}
 .ban_tit2 {
     height: 250px;
     padding-top: 38px;
