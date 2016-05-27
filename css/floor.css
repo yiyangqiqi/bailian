@@ -3,12 +3,14 @@
 .floor1 .wrap{width: 1190px;height: 474px;margin: 0 auto;position: relative;margin-top: 40px;}
 .floor1 .floor_main,.floor_maint{border-color: #dbeaa8 ;}
 .floor .floor_tit{width:1190px;height: 52px;background: url(../img/floor_tit.png) no-repeat 0 0;}
-
+.floor_t .floor_mainb img{margin-top: 20px;}
+.floor2 .floor_mainb img{margin: 10px 10px;}
 .floor .floor_slide{width: 304px;height: 422px;position: absolute;left: 0;top: 52px;overflow: hidden;}
 /*轮播图*/
 .floor .floor_slidew{width: 304px;height: 422px;}
-
-
+.floor2 .floor_imgb:hover{opacity: 0.5;}
+.floor_main .floor_img img:hover{left:-10px;}
+.floor .floor_img img{position: relative;left: 0;}
 .main-top-scroll .tu1{position: absolute;left:0;top:0;}
 .floor_main{width: 883px;height: 461px;margin-top: -42px;float: right;border-bottom-width: 3px ;border-bottom-style: solid ;border-right-style:solid  ;background: #fff;}
 .floor_maint{height: 300px;border-bottom-width: 1px;border-bottom-style:solid ;position: relative;}
@@ -35,13 +37,18 @@
 }
 .floor1 .floor_main,.floor1 .floor_maint{border-color: #dbeaa8 ;}
 
-
-.floor2 .floor_maint .floor_img{width: 219.5px;height: 300px;display: block;float: left;overflow: hidden;}
+/*.floor2 .*/
+.floor2 .floor_maint .floor_img{width: 219.5px;height: 300px;display: block;float: left;overflow: hidden;border-right-width: 1px;border-right-style: solid;}
 /*.floor2 .floot_mainc .floor_img{height: 97px;width:219.5;float: left;border-right-width: 1px;border-right-style: solid;}*/
 
-.floor2 .floor_mainc .floor_img {border-color: #A56F49;overflow: hidden;width: 219.5px;height: 97px;float: left;}
-.floor2 .floor_imgb{height: 62px;width: 147px;float: left;border-color: #A56F49;overflow: hidden;}
+.floor2 .floor_mainc .floor_img {overflow: hidden;width: 219.5px;height: 97px;float: left;border-right-width: 1px;border-right-style: solid;border-bottom-style: solid;border-bottom-width: 1px;}
+.floor2 .floor_imgb{height: 62px;width: 147px;float: left;overflow: hidden;}
 .floor2 .floor_main,.floor2 .floor_maint{border-color: #A56F49 ;}
+
+.floor2 .floor_img {
+	border-color:  #A56F49 ;overflow: hidden;
+}
+.floor2 .floor_main,.floor3 .floor_maint{border-color: #A56F49  ;}
 
 .floor3 .floor_img {
 	border-color: #F27920;overflow: hidden;

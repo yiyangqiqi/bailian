@@ -1,0 +1,77 @@
+body{background: #F4F4F4;}
+#header_login{width: 100%;min-width: 950px;position: relative;top: 0;height: 110px;}
+#header_logo{width: 950px;margin: 20px auto;margin-bottom:20px;}
+
+#regist__main{width: 950px;margin: 0 auto;}
+#regist_centont{margin:0 auto;width: 950px;border: 1px solid #e1dfda;background: #FFFFFF;font-family: 'Microsoft YaHei';}
+#regist_centont .center_top{width: 930px;height: 30px;line-height: 30px;margin: 10px 0;
+							border-bottom: 1px solid #E1DFDA;font-size: 16px;color: #ff002a;padding-left: 20px;}
+.center_top span{display: block;float: right;font-size: 12px;color: #63625d;}
+.center_top a{color: #0088cc;display: inline-block;padding:0 5px;}
+.center_top a:hover{color: #d62233;}
+
+/*表单*/
+.center_bottom{width: 759px;padding:  50px 0 74px 191px;}
+#registered{position: relative;}
+.login-data,.test{padding: 10px 0;overflow: hidden;}
+.login-data .name,.test .name{float: left;width: 136px;height: 36px;font-size: 15px;
+					font-family: 'Microsoft YaHei';color: #333333;
+					text-align: right;line-height: 36px;}
+.login-data .name i{color:#d62233;}
+.login-data .login-item,.test .login-item{position: relative;float: left;padding-left: 5px;display: inline;}
+
+.login-item input{font-size: 16px;vertical-align: middle;padding: 0 10px 0 30px;text-indent: 0px;font-size: 12px;
+font-family: 'Microsoft YaHei';color: #000;}
+.login-item input{width: 302px;padding-left: 35px;font-size: 12px;height: 32px;padding:0 10px 0 30px;border: 1px solid #999999;float: left;}
+.loginPerfect-remember {
+    height: 25px;
+    padding-left: 140px;
+    line-height: 18px;
+    overflow: hidden;
+    padding-top: 5px;
+    color: #666666;
+}
+.loginPerfect-remember label {
+    float: left;
+    cursor: pointer;
+    outline: none;
+    padding-right: 10px;
+}
+.loginPerfect-remember label i {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    float: left;
+    border: 1px solid #55779b;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+/*i.clicked {
+    background: url(../css/i/register.png) no-repeat 0 -473px;
+    border: none;
+    width: 13px;
+    height: 13px;
+}*/
+.register-button{}
+.register-button button{width: 345px;height:36px;margin-left: 140px;background:#E6133C;border: none;border-radius: 2px;color: #FFFFFF;font-size: 16px;}
+.register-button button:hover{background: #fa2244;}
+.test .login-item input{width: 200px;float: left;}
+
+.test .test-data{width: 90px;height: 32px;border: 1px solid #c8c8c8;background:black;float: left;margin-left: 10px;}
+.newicon{display: block;position: absolute;left: 12px;top:10px;}
+.prompt{float:left; line-height:0px;height:36px;display: block;margin-left:10px ;position: relative;}
+/*.prompt-text{position: absolute;top: 0;left: 0;}
+.prompt-error{position: absolute;}
+.prompt-correct{position: absolute;}*/
+.prompt i{display: block;float: left;height: 16px;width: 16px;margin:10px 5px 0 0;}
+
+
+.bottom-nav{width: 100%;line-height: 24px;text-align: center;padding: 40px 0;color: #CCCCCC;background: #F4F4F4;margin-top: 20px;}
+.bottom-nav a{color: #003333;}
+.bottom-nav a:hover{color: #d62233;}
+.copyright{background: #F4F4F4;}
+.copyright .p_t{margin-bottom: 10px;}
+.copyright span{color: #666666;margin: 0 5px;}
+
+
+
